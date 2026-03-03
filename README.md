@@ -45,6 +45,21 @@ docker run -p 3001:3001 --env-file .env.local quickledger-ai
 ```
 *(Note: If you already have a service running on port 3001 locally, map it to a different port like `3002:3001`)*
 
+**Option 3: Run with PM2 (Production/Background)**
+
+PM2 is configured to keep your API running in the background and auto-restart on crashes.
+
+```bash
+# Start the server with PM2
+npm run pm2:start
+
+# Monitor logs
+npm run pm2:logs
+
+# Stop the server
+npm run pm2:stop
+```
+
 ### API Endpoints
 
 Once the server is running (defaults to `http://localhost:3001`), you can interact with these endpoints:
