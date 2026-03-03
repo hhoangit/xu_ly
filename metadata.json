@@ -1,0 +1,5 @@
+{
+  "name": "QuickLedger AI",
+  "description": "Convert natural language transaction notes into structured financial data tables using Gemini AI. Supports Vietnamese formats.",
+  "requestFramePermissions": []
+}
